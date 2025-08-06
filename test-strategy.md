@@ -38,4 +38,4 @@ y en la linea 70 idica: 'Felicitaciones! adivinaste el número!' pero deberia se
 **Detalle:** Se verifica que en realidad nunca se acierta, puedo poner 91 y dice que es menor, pero pongo 92 y dice que es mayor.
 **Error:** Se esta comparando un string con un numero decimal, por eso nunca se acierta, se corrige linea 61 y se declara let userGuess = Number(guessField.value.trim());
 
-
+## -- Fin
